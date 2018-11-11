@@ -1,9 +1,11 @@
 {
-  "name": "rnh3",
+  "name": "starter-ts-react-native-hook",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
+    "eject": "node node_modules/react-native/local-cli/cli.js eject",
+    "link": "node node_modules/react-native/local-cli/cli.js link",
     "test": "jest",
     "postinstall": "patch-package"
   },
